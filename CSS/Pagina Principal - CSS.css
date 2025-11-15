@@ -19,12 +19,14 @@
     color: white;
 }
 
-body{
+#ID_Body{
     background-color: rgb(35, 35, 35);
+    transition: 0.5s;
 }
 
 #NavBP{
     display: flex;
+    transition: 0.5s;
     align-items: center;
     background-color: #404040;
     padding: 5px;
@@ -35,7 +37,8 @@ body{
     gap: 7px;
 }
 
-#Botones_DivFlex input{
+#Botones_DivFlex .Clase_Input_Custom{
+    transition: 0.5s;
     font-family: "Overlock_SC";
     font-size: 13px;
     transition: 0.3s;
@@ -49,11 +52,12 @@ body{
     color: white;
 }
 
-#Botones_DivFlex input:hover{
+#Botones_DivFlex .Clase_Input_Custom:hover{
     background-color: #303030;
 }
 
 #DivBorder_Buscador{
+    transition: 0.5s;
     margin-left: 24px;
     border-radius: 3px;
     padding: 5px;
@@ -72,6 +76,7 @@ body{
 }
 
 #DivBorder_Buscador #Texto_Buscador{
+    transition: 0.5s;
     font-family: "Overlock_SC";
     font-size: 14px;
     color: rgb(188, 188, 188);
@@ -144,6 +149,7 @@ body{
 }
 
 #Div_SegundoContenido #SubDiv1_SegundoC{
+    transition: 0.5s;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -202,7 +208,8 @@ body{
     background-color: #505050;
 }
 
-#Div-Carrusel{
+#Div_Carrusel{
+    transition: 0.5s;
     border-bottom: 1px solid rgb(134, 134, 134);
     gap: 20px;
     background-color: #404040;
@@ -211,7 +218,7 @@ body{
     box-shadow: 0px 0px 4px 0px rgb(180, 180, 180);
 }
 
-#Div-Carrusel #SubDiv-Carrusel{
+#Div_Carrusel #SubDiv-Carrusel{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,7 +238,7 @@ body{
     width: 48%;
 }
 
-.Info-Tematica{
+.Info_Tematica{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -239,23 +246,83 @@ body{
     box-shadow: 0px 0px 3px 0px rgb(55, 55, 55);
     border-radius: 3px;
     padding: 10px;
+    transition: 0.5s;
     background-color: #2b2b2b;
 }
 
-.Info-Tematica h3{
+.Info_Tematica h3{
     text-align: center;
 }
 
-.Info-Tematica p{
+.Info_Tematica p{
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
 
-.Info-Tematica img{
+.Info_Tematica img{
     width: 85%;
     height: 85%;
     box-shadow: 0px 0px 5px 0px rgb(55, 55, 55);
     margin-bottom: 5px;
     margin-top: 5px;
+}
+
+
+#UltimoDiv{
+    transition: 0.5s;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(165, 165, 165);
+    box-shadow: 0px 0px 5px 0px rgb(111, 111, 111);
+}
+
+#UltimoDiv .SubDiv_UltimoDiv{
+    cursor: pointer;
+    width: 100%;
+    height: 200px;
+}
+
+#Color_Rojo{
+    background-color: red;
+}
+
+#Color_Verde{
+    background-color: rgb(19, 125, 0);
+}
+
+#Color_Azul{
+    background-color: rgb(0, 69, 197);
+}
+
+#Color_Naranja{
+    background-color: #e69a00;
+}
+
+
+
+
+
+
+#Div_Indice-Carrusel{
+    gap: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Indice-Carrusel{
+    transition: 0.4s;
+    cursor: pointer;
+    background-color: darkgrey;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.Indice_Activo{
+    background-color: deepskyblue;
 }

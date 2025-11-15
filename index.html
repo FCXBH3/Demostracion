@@ -5,14 +5,14 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="./CSS/Pagina Principal - CSS.css">
     </head>
-    <body>
+    <body id="ID_Body">
         <nav id="NavBP">
             <div id="Botones_DivFlex">
-                <input type="button" id="Boton_Juegos" name="Boton_Juegos" value="Juegos">
-                <input type="button" id="Boton_Series" name="Boton_Series" value="Series">
-                <input type="button" id="Boton_Inicio" name="Boton_Inicio" value="Inicio">
-                <input type="button" id="Boton_Libros" name="Boton_Libros" value="Libros">
-                <input type="button" id="Boton_Musica" name="Boton_Musica" value="Musica">
+                <input type="button" id="Boton_Juegos" name="Boton_Juegos" value="Juegos" class="Clase_Input_Custom">
+                <input type="button" id="Boton_Series" name="Boton_Series" value="Series" class="Clase_Input_Custom">
+                <input type="button" id="Boton_Inicio" name="Boton_Inicio" value="Inicio" class="Clase_Input_Custom">
+                <input type="button" id="Boton_Libros" name="Boton_Libros" value="Libros" class="Clase_Input_Custom">
+                <input type="button" id="Boton_Musica" name="Boton_Musica" value="Musica" class="Clase_Input_Custom">
             </div>
             <div id="DivBorder_Buscador">
                 <input type="text" id="Texto_Buscador" name="Texto_Buscador" value="Buscar...">
@@ -34,50 +34,60 @@
                     <h3>Una demostracion de mis Capacidades</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis placeat atque omnis amet expedita vel ipsam explicabo voluptatem asperiores dolores quas eaque error eius, animi est facilis sunt eveniet quibusdam?</p>
                 </div>
-                <div id="Div-Carrusel">
+                <div id="Div_Carrusel">
                     <div id="SubDiv-Carrusel">
 
-                        <img src="./Imagenes/Icono_FlechaIzq.png" class="Flechas_CSS">
+                        <img src="./Imagenes/Icono_FlechaIzq.png" class="Flechas_CSS" id="ID_FlechaIZQ">
 
                         <img src="./Imagenes/ImagenesCarrusel/Soda-Stereo-Wallpaper.jpg" class="Imagenes-Carrusel Imagen-Activa" id="1">
                         <img src="./Imagenes/ImagenesCarrusel/AOT-Wallpaper.jpg" class="Imagenes-Carrusel" id="2">
                         <img src="./Imagenes/ImagenesCarrusel/Sekiro-Wallpaper.jpg" class="Imagenes-Carrusel" id="3">
                         <img src="./Imagenes/ImagenesCarrusel/The-Witcher-Wallpaper.png" class="Imagenes-Carrusel" id="4">
 
-                        <img src="./Imagenes/Icono_FlechaDer.png" class="Flechas_CSS">
+                        <img src="./Imagenes/Icono_FlechaDer.png" class="Flechas_CSS" id="ID_FlechaDER">
 
+                    </div>
+                    <div id="Div_Indice-Carrusel">
+                        <div class="Indice-Carrusel Indice_Activo" id="0"></div>
+                        <div class="Indice-Carrusel" id="1"></div>
+                        <div class="Indice-Carrusel" id="2"></div>
+                        <div class="Indice-Carrusel" id="3"></div>
                     </div>
                 </div>
                 <div id="Div-Info-General">
                     <div class="SubDiv-Info-General">
-                        <div class="Info-Tematica">
+                        <div class="Info_Tematica">
                             <h3>Sekiro: Shadows die Twice</h3>
                             <img src="./Imagenes/Imagenes-Info/Sekiro-Wallpaper.jpg">
                             <p>Este es uno de mis Juegos favoritos. Sekiro: Shadows Die Twice es un videojuego de acción y aventura desarrollado por From Software y distribuido por Activision. El juego fue lanzado el 22 de marzo de 2019 en las plataformas PlayStation 4, Xbox One y Microsoft Windows.</p>
                         </div>
-                        <div class="Info-Tematica">
+                        <div class="Info_Tematica">
                             <h3>Shingeki no Kyojin</h3>
                             <img src="./Imagenes/Imagenes-Info/AOT-Wallpaper.jpg">
                             <p>Serie favorita: Shingeki no Kyojin, también conocida como Ataque a los titanes en España y Ataque de los titanes en Hispanoamérica, es una serie de manga japonesa escrita e ilustrada por Hajime Isayama.</p>
                         </div>
                     </div>
                     <div class="SubDiv-Info-General">
-                        <div class="Info-Tematica">
+                        <div class="Info_Tematica">
                             <h3>La sangre de los Elfos - The Witcher</h3>
                             <img src="./Imagenes/Imagenes-Info/TW-Wallpaper.jpg">
                             <p>La Saga de Geralt de Rivia o la Saga del brujo es una serie de cuentos y novelas de fantasía heroica creada por el escritor polaco Andrzej Sapkowski. Consta de diez libros.</p>
                         </div>
-                        <div class="Info-Tematica">
+                        <div class="Info_Tematica">
                             <h3>Soda Stereo</h3>
                             <img src="./Imagenes/Imagenes-Info/SodaStereo-Wallpaper.jpg">
                             <p>Soda Stereo es una banda de rock argentina formada en 1982 originalmente por el cantante y guitarrista Gustavo Cerati, el bajista Zeta Bosio y el baterista Charly Albert.</p>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <p>dasdasd</p>
-                </div>
+            </div>
+            <div id="UltimoDiv">
+                <div class="SubDiv_UltimoDiv" id="Color_Rojo"></div>
+                <div class="SubDiv_UltimoDiv" id="Color_Naranja"></div>
+                <div class="SubDiv_UltimoDiv" id="Color_Verde"></div>
+                <div class="SubDiv_UltimoDiv" id="Color_Azul"></div>
             </div>
         </div>
+        <script src="./JavaScript/Pagina Principal - JavaScript.js"></script>
     </body>
 </html>
