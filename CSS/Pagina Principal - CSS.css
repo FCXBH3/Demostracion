@@ -220,8 +220,7 @@ body{
 
 #Div-Info-General{
     display: flex;
-    
-    align-items: center;
+    justify-content: space-around;
     margin: 40px;
 }
 
@@ -233,6 +232,13 @@ body{
 }
 
 .Info-Tematica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 3px 0px rgb(55, 55, 55);
+    border-radius: 3px;
+    padding: 10px;
     background-color: #2b2b2b;
 }
 
@@ -241,11 +247,15 @@ body{
 }
 
 .Info-Tematica p{
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .Info-Tematica img{
-    width: 30%;
-    height: 30%;
+    width: 85%;
+    height: 85%;
+    box-shadow: 0px 0px 5px 0px rgb(55, 55, 55);
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
