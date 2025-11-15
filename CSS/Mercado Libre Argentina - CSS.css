@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'Yomogi'; /* El nombre que usarás */
+  src: url('../Fuentes/Yomogi.zip') format('woff'); /* Ruta al archivo */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Overlock_SC'; /* El nombre que usarás */
+  src: url('../Fuentes/Overlock_SC.zip') format('woff'); /* Ruta al archivo */
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Yomogi";
+    color: white;
+}
+
+body{
+    background-color: rgb(35, 35, 35);
+}
+
+#NavBP{
+    display: flex;
+    align-items: center;
+    background-color: #404040;
+    padding: 5px;
+}
+
+#Botones_DivFlex{
+    display: flex;
+    gap: 7px;
+}
+
+#Botones_DivFlex input{
+    font-family: "Overlock_SC";
+    font-size: 13px;
+    transition: 0.3s;
+    cursor: pointer;
+    height: 40px;
+    width: 90px;
+    border-radius: 3px;
+    display: flex;
+    border: none;
+    background-color: #404040;
+    color: white;
+}
+
+#Botones_DivFlex input:hover{
+    background-color: #303030;
+}
+
+#DivBorder_Buscador{
+    margin-left: 24px;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    width: fit-content;
+    height: fit-content;
+}
+
+#DivBorder_Buscador label{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#DivBorder_Buscador #Texto_Buscador{
+    font-family: "Overlock_SC";
+    font-size: 14px;
+    color: rgb(188, 188, 188);
+    outline: none;
+    border: none;
+    background-color: #404040;
+    margin-right: 5px;
+    width: 310px;
+}
+
+#Div_AjustesSocialMedia{
+    margin-left: 100px;
+    margin-right: 3px;
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+
+#Div_AjustesSocialMedia a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Div_AjustesSocialMedia a img{
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.4s;
+}
+
+#Div_AjustesSocialMedia a img:hover{
+    width: 36px;
+    height: 36px;
+}
+
+#Div_AjusteDef{
+    margin-right: 10px;
+}
+
+#Div_AjusteDef a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Div_AjusteDef a img{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+#Div_AjusteDef a img:hover{
+    width: 36px;
+    height: 36px;
+}
+
+#Div_SegundoContenido{
+    padding-right: 85px;
+    padding-left: 85px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#Div_SegundoContenido #SubDiv1_SegundoC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #404040;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px 0px white;
+}
+
+#info-Principal h3{
+    text-align: center;
+    font-size: 21px;
+}
+
+#info-Principal p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.Imagenes-Carrusel{
+    user-select: none;
+    height: 60%;
+    width: 60%;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px 0px rgb(34, 34, 34);
+    display: none;
+    transition: 0.3s;
+}
+
+.Imagenes-Carrusel:hover{
+    height: 62%;
+    width: 62%;
+}
+
+.Imagen-Activa{
+    display: block;
+}
+
+.Flechas_CSS{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    cursor: pointer;
+    user-select: none;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: 0.3s;
+}
+
+.Flechas_CSS:hover{
+    background-color: #505050;
+}
+
+#Div-Carrusel{
+    border-bottom: 1px solid rgb(134, 134, 134);
+    gap: 20px;
+    background-color: #404040;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 4px 0px rgb(180, 180, 180);
+}
+
+#Div-Carrusel #SubDiv-Carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#Div-Info-General{
+    display: flex;
+    
+    align-items: center;
+    margin: 40px;
+}
+
+#Div-Info-General .SubDiv-Info-General{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+}
+
+.Info-Tematica{
+
+}
+
+.Info-Tematica h3{
+    text-align: center;
+}
+
+.Info-Tematica p{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Info-Tematica img{
+    width: 30%;
+    height: 30%;
+}
