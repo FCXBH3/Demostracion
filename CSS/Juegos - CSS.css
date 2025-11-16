@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Yomogi'; /* El nombre que usarás */
+  src: url('../Fuentes/Yomogi.zip') format('woff'); /* Ruta al archivo */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Overlock_SC'; /* El nombre que usarás */
+  src: url('../Fuentes/Overlock_SC.zip') format('woff'); /* Ruta al archivo */
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Yomogi";
+    color: white;
+}
+
+#ID_Body{
+    background-color: rgb(35, 35, 35);
+    transition: 0.5s;
+}
+
+#NavBP{
+    display: flex;
+    transition: 0.5s;
+    align-items: center;
+    background-color: #404040;
+    padding: 5px;
+}
+
+#Botones_DivFlex{
+    display: flex;
+    gap: 7px;
+}
+
+#Botones_DivFlex .Clase_Input_Custom{
+    transition: 0.5s;
+    font-family: "Overlock_SC";
+    font-size: 13px;
+    transition: 0.3s;
+    cursor: pointer;
+    height: 40px;
+    width: 90px;
+    border-radius: 3px;
+    display: flex;
+    border: none;
+    background-color: #404040;
+    color: white;
+}
+
+#Botones_DivFlex .Clase_Input_Custom:hover{
+    background-color: #303030;
+}
+
+#DivBorder_Buscador{
+    transition: 0.5s;
+    margin-left: 24px;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    width: fit-content;
+    height: fit-content;
+}
+
+#DivBorder_Buscador label{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#DivBorder_Buscador #Texto_Buscador{
+    transition: 0.5s;
+    font-family: "Overlock_SC";
+    font-size: 14px;
+    color: rgb(188, 188, 188);
+    outline: none;
+    border: none;
+    background-color: #404040;
+    margin-right: 5px;
+    width: 310px;
+}
+
+#Div_AjustesSocialMedia{
+    margin-left: 100px;
+    margin-right: 3px;
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+
+#Div_AjustesSocialMedia a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Div_AjustesSocialMedia a img{
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.4s;
+}
+
+#Div_AjustesSocialMedia a img:hover{
+    width: 36px;
+    height: 36px;
+}
+
+#Div_AjusteDef{
+    margin-right: 10px;
+}
+
+#Div_AjusteDef a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Div_AjusteDef a img{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+#Div_AjusteDef a img:hover{
+    width: 36px;
+    height: 36px;
+}

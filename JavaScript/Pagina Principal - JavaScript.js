@@ -59,3 +59,12 @@ function Indice_Boton_Carrusel(){
     }
 }
 //Fin del codigo Carrusel.
+
+//Comienzo codigo Botones_Paginas.
+document.getElementById("Boton_Juegos").addEventListener("click",);
+document.getElementById("Boton_Libros").addEventListener("click",);
+document.getElementById("Boton_Musica").addEventListener("click",);
+document.getElementById("Boton_Series").addEventListener("click",);
+
+
+//Fin codigo Botones_Paginas.
